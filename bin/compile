@@ -72,6 +72,8 @@ rm -rf $CACHE_DIR/.cache/
 cp -a $HOME/.cache/ $CACHE_DIR/
 mv $HOME/.cache/ $BUILD_DIR/
 
+git clone https://github.com/dbym4820/dusque.git $HOME/.roswell/local-projects/dusque
+
 echo "Copy .roswell/"
 rm -rf $CACHE_DIR/.roswell/
 cp -a $HOME/.roswell/ $CACHE_DIR/
@@ -80,4 +82,3 @@ mv $HOME/.roswell/ $BUILD_DIR/
 mkdir -p $BUILD_DIR/.profile.d
 PROFILE_PATH=$BUILD_DIR/.profile.d/buildpack-roswell.sh
 echo 'export PATH="$HOME/.roswell/bin:$HOME/.local/bin:$PATH"' >> $PROFILE_PATH
-
