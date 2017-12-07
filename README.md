@@ -7,7 +7,7 @@ It uses [Roswell](https://github.com/roswell/roswell).
 ## Usage
 
 ```
-heroku create --buildpack https://github.com/gos-k/heroku-buildpack-roswell
+heroku create --buildpack https://github.com/dbym4820/heroku-buildpack-roswell
 ```
 
 ### files
@@ -19,7 +19,7 @@ heroku create --buildpack https://github.com/gos-k/heroku-buildpack-roswell
 
 ## samples
 
-* https://github.com/gos-k/heroku-clack-sample
+* https://github.com/dbym4820/heroku-clack-sample
 
 ## Author
 
